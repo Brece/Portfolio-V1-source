@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Personal Webpage</title>
+</head>
+
+<body id="page-top">
+
+  <!-- START nav-bar -->
+  <div class="nav-container">
+    <header>
+      <a class="logo" href="#">Nui Ruppert</a>
+
+      <nav class="navbar hidden">
+        <ul>
+          <li class="hidden"><a href="#page-top" class="page-scroll"></a></li>
+          <li class="nav-li"><a href="#about">about</a></li>
+          <li class="nav-li"><a href="#experience">experience</a></li>
+          <li class="nav-li"><a href="#portfolio">portfolio</a></li>
+          <li class="nav-li"><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- hamburger menu -->
+      <!-- onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" -->
+      <button class="menu-btn" aria-label="Main Menu">
+        <svg width="50" height="50" viewBox="0 0 100 100">
+          <path class="line line1"
+            d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+          <path class="line line2" d="M 20,50 H 80" />
+          <path class="line line3"
+            d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+        </svg>
+      </button>
+    </header>
+  </div>
+  <!-- END nav-bar -->
+
+  <!-- START hero -->
+  <div class="hero">
+    <div class="content">
+      <h1>hi, I'm Nui</h1>
+    </div>
+    <div class="meet">
+      <p>Web Development Enthusiast</p>
+      <span>💻</span>
+    </div>
+    <button type="button" class="scroll-down-btn">
+      <i class="fas fa-chevron-down"></i>
+    </button>
+  </div>
+  <!-- END hero -->
+
+  <!-- START about -->
+  <section id="about">
+    <div class="about-container transition1">
+      <h2>something about myself</h2>
+      <div class="profile-img">
+        <img src="img/profile-img.jpg" alt="Profile Image" />
+      </div>
+      <div class="description">
+        <p>
+          Hello there! My name is Nui and I aspire to become a Web Developer.
+          I remember playing around with templates for my MySpace site back in
+          the day when I first had access to the internet. Eventhough I had no
+          clue what I was doing back then it felt satisfying that I made it my
+          own. Fast forward a decade I often found myself inspecting stunning
+          webpages with crazy animations and decided to learn it from the
+          ground up.
+        </p>
+        <p>
+          When I'm not on the computer studying, I enjoy road cycling, doing
+          martial arts and being outdoors in nature.
+        </p>
+      </div>
+      <div class="summary-container">
+        <h3>TL;DR</h3>
+        <div class="summary-icons">
+          <div class="summary-icon">
+            <i class="far fa-keyboard"></i>
+            <p>Web Developer</p>
+          </div>
+          <div class="summary-icon">
+            <i class="fas fa-paint-roller"></i>
+            <p>UI Enthusiast</p>
+          </div>
+          <div class="summary-icon">
+            <i class="fas fa-tree"></i>
+            <p>Outgoing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END about -->
+
+  <!-- START skills -->
+  <section id="experience">
+    <div class="exp-container transition2">
+      <h2>experience</h2>
+      <div class="description">
+        <p>
+          I've been learning Web Development for 6 months on the side whenever
+          I have spare time before or after my full-time job. Before that I
+          participated in the online course
+          <i>"CS50 - Introduction to Computer Science"</i>
+          and learned the fundamentals of programming in C and Python. I enjoy
+          the process of learning new things every day.
+        </p>
+        <span><i>#trustTheProcess</i></span>
+      </div>
+      <div class="tools">
+        <div class="tool" title="HTML5">
+          <img src="img/html-logo.png" alt="HTML5 logo" />
+        </div>
+        <div class="tool" title="CSS3">
+          <img src="img/css-logo.png" alt="CSS3 Logo" />
+        </div>
+        <div class="tool" title="Javascript">
+          <img src="img/js-logo.png" alt="Javascript Logo" />
+        </div>
+        <div class="tool" title="SASS">
+          <img src="img/sass-logo.png" alt="SASS Logo" />
+        </div>
+        <div class="tool" title="Git">
+          <img src="img/git-logo.png" alt="Git Logo" />
+        </div>
+        <div class="tool" title="Github">
+          <img src="img/github-logo.png" alt="Github Logo" />
+        </div>
+        <div class="tool" title="GSAP">
+          <img src="img/gsap-logo.png" alt="GSAP Logo" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END skills -->
+
+  <!-- START portfolio -->
+  <section id="portfolio">
+    <div class="portfolio-header">
+      <h2>what I've done</h2>
+      <p>(more coming soon)</p>
+    </div>
+
+    <div class="portfolio-container transition3">
+      <div class="portfolio-left">
+        <div class="inner">
+          <p class="featured-title">fastfood landing page</p>
+          <p class="featured-desc">A fantasy Fastfood Landing Page.</p>
+          <p class="featured-tools">HTML, CSS, Javascript</p>
+        </div>
+        <div class="btn-container">
+          <a href="https://brece.github.io/restaurant-snack-hub/" target="_blank"><button class="demo-btn" type="button">demo</button></a>
+          <a href="https://github.com/Brece/restaurant-snack-hub" target="_blank"><button class="demo-btn" type="button">code</button></a>
+        </div>
+      </div>
+      <a href="https://brece.github.io/restaurant-snack-hub/" target="_blank">
+        <img src="img/snackhub-page.jpg" alt="SnackHub Image" class="right" />
+      </a>
+    </div>
+    
+    <div class="portfolio-container transition3">
+      <div class="portfolio-left">
+        <div class="inner">
+          <p class="featured-title">restaurant landing page</p>
+          <p class="featured-desc">
+            A fantasy Restaurant Landing Page inspired by ThemeForest.
+          </p>
+          <p class="featured-tools">HTML, CSS, Javascript</p>
+        </div>
+        <div class="btn-container">
+          <a href="https://brece.github.io/restaurant-1/" target="_blank"><button class="demo-btn" type="button">demo</button></a>
+          <a href="https://github.com/Brece/restaurant-1" target="_blank"><button class="demo-btn" type="button">code</button></a>
+        </div>
+      </div>
+      <a href="https://brece.github.io/restaurant-1/" target="_blank">
+        <img src="img/restaurant-page.jpg" alt="Restaurant Image" class="right" />
+      </a>
+    </div>
+
+    <div class="portfolio-container transition3">
+      <div class="portfolio-left">
+        <div class="inner">
+          <p class="featured-title">personal portfolio page</p>
+          <p class="featured-desc">
+            This is my Personal Portfolio Page built from scratch and inspired by Brittany Chiang.
+          </p>
+          <p class="featured-tools">HTML, CSS, Javascript, GSAP</p>
+        </div>
+        <div class="btn-container">
+          <a href="https://github.com/Brece/Portfolio-V1" target="_blank"><button class="demo-btn" type="button">code</button></a>
+        </div>
+      </div>
+      <a href="#">
+        <img src="img/portfolio-page.jpg" alt="Portfolio Image" class="right" />
+      </a>
+    </div>
+  </section>
+  <!-- END portfolio -->
+
+  <!-- START contact -->
+  <section id="contact">
+    <div class="contact-desc">
+      <h2>get in touch</h2>
+      <p>
+        Whether you have an idea for a project or just want to chat, feel free
+        to shoot me an email!
+      </p>
+      <span>nuiruppert@outlook.com</span>
+    </div>
+  </section>
+  <!-- END contact -->
+
+  <!-- START footer -->
+  <section id="footer">
+    <div class="footer-container">
+      <div class="social-container">
+        <ul>
+          <li class="github">
+            <a href="https://github.com/Brece" target="_blank"><i class="fab fa-github"></i></a>
+          </li>
+          <li class="xing">
+            <a href="#"><i class="fab fa-xing"></i></a>
+          </li>
+          <li class="instagram">
+            <a href="https://www.instagram.com/socialized_panda" target="_blank"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <a id="to-top" class="page-scroll" href="#page-top">
+        <i class="fas fa-chevron-circle-up"></i>
+      </a>
+      <p>&#169; Nui Ruppert 2021</p>
+    </div>
+  </section>
+  <!-- END footer -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
+    integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw=="
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
