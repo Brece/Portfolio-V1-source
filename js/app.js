@@ -8,7 +8,6 @@ const mediaQueryTablet = window.matchMedia("(min-width: 760px)");
 
 hamburger.addEventListener("click", dropDown);
 navLi.forEach(collapseLi);
-mediaQueryTablet.addEventListe
 
 mediaQueryTablet.addEventListener("change", handleTabletChange);
 window.addEventListener("scroll", navSticky);
